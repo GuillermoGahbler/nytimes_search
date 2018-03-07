@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="container">
@@ -13,27 +15,43 @@
             <h1>New York Times</h1>
         </div>
         <div>
-            
-            <form action="form"></form>
-            <label for=""></label>
+
+            <form id="search-form">
+                <label for="search-input">Search Term</label>
+                <br>
+                <input type="text" id="search-input">
+
+
         </div>
         <div>
-            Number of records
+            <form id="records-form">
+                <label for="records-input">Number of Records to Retrieve</label>
+                <br>
+                <input type="text" id="search-input">
+
         </div>
         <div>
-            start year (optional)
+            <form id="startYear-form">
+                <label for="records-input">Start Year (Optional):</label>
+                <br>
+                <input type="text" id="records-input">
         </div>
         <div>
-            end year (optional)
-        </div>
+            <form id="endYear-form">
+                <label for="startYear-input">End Year (Optional):</label>
+                <br>
+                <input type="text" id="endYear-input">        </div>
         <button> search</button>
         <button>clear results</button>
+        <br><br>
+
         <div>
             Top articles
         </div>
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
 </html>
